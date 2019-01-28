@@ -563,4 +563,9 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+    <deployments>
+        <deployment name="helloworld-mdb.war" runtime-name="helloworld-mdb.war">
+            <content sha1="d1a10ab10ae5d9eb9d86ba668e2414c01372d11a"/>
+        </deployment>
+    </deployments>
 </server>
